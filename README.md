@@ -38,18 +38,18 @@ The script provides functions for training and playing the Nim game.
 
 * **train(n):**
 
-* Trains the AI by playing n games against itself.
-* Returns a dictionary of Q-values.
+	* Trains the AI by playing n games against itself.
+	* Returns a dictionary of Q-values.
 
 * **play(q_values):**
 
-* Allows a human to play against the trained AI.
-* Uses learned Q-values to make decisions.
+	* Allows a human to play against the trained AI.
+	* Uses learned Q-values to make decisions.
 
 * **best_move(state, q_values):**
 
-* Determines the best move given a state and learned Q-values.
+	* Determines the best move given a state and learned Q-values.
 
 * **update_q_value(q_values, state, action, new_state, reward, alpha, gamma):**
 
-* Updates Q-values based on reinforcement learning principles.
+	* Updates Q-values based on reinforcement learning principles.
